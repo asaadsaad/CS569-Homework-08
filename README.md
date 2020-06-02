@@ -2,7 +2,7 @@
 ## Coding Exercise
 * Your main `AppModule` supports Angular Router and has only one service: create a service that returns an array of JSON objects. 
 ```json
-[{"id":1, "name": "Asaad Saad", "hobbies":["violin", "cooking", "hiking"]}, ...]
+[{"id":1, "name": "Asaad Saad", "hobbies":["violin", "cooking", "hiking"]}, ]
 ```
 * Create a featured module called `Users` that is responsible for showing a list of users, your application should only load this module when navigating to `users` route. 
 * Within `Users` module we have two components, both components will retrieve data using the service you created earlier in `AppModule`
