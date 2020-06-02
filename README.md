@@ -1,6 +1,6 @@
 # CS569 Homework 09
 ## Coding Exercise
-* Your main `AppModule` supports Angular Router and has only one service: create a service that returns an array of JSON objects. 
+* Your main `AppModule` supports Angular Router and has only one service: create a service that returns an observable of JSON objects. 
 ```json
 [{"id":1, "name": "Asaad Saad", "hobbies":["violin", "cooking", "hiking"]}, ]
 ```
