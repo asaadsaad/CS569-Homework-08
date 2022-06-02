@@ -40,3 +40,6 @@
 - Course name and code  
  - <student ID, fullname> (edit)(x) (add)  
  - <student ID, fullname> (edit)(x)   
+
+**Bonus** *(Optional)*  
+Integrate any [UI Kit](https://angular.io/resources?category=development) of your choice into your project.
