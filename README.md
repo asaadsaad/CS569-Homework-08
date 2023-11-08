@@ -1,6 +1,2 @@
-# CS569 Homework 08
-## Coding Exercise
-Refactor yesterday's homework to use a Lazy loaded module for Addresses.
-
-**Bonus** *(Optional)*  
-Integrate any [UI Kit](https://angular.io/resources?category=development) of your choice into your project.
+# CS569 Homework
+Create an Angular application that uses the [REST Countries API](https://restcountries.com/) to search for countries by name, and the ability to customize the response fields by (`name, capital, region, subregion, languages, population, timezones, flags, maps`). All these fields are selected by default. Request example: `GET https://restcountries.com/v3.1/name/{name}?fields={field},{field},{field}`
