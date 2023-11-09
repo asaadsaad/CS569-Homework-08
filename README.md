@@ -7,3 +7,48 @@ Create an Angular application that uses the [REST Countries API](https://restcou
 <p align="center">
   <img src="./screenshot.png" />
 </p>
+```typescript
+export type APIResponse = Country[];
+
+export interface Country {
+    flags: Flags;
+    name: Name;
+    capital: string[];
+    region: string;
+    subregion: string;
+    languages: Languages;
+    maps: Maps;
+    population: number;
+    timezones: string[];
+}
+
+export interface Flags {
+    png: string;
+    svg: string;
+    alt: string;
+}
+
+export interface Name {
+    common: string;
+    official: string;
+    nativeName: NativeName;
+}
+
+export interface NativeName {
+    [key: string]: NativeNameValue;
+}
+
+export interface NativeNameValue {
+    official: string;
+    common: string;
+}
+
+export interface Languages {
+    [key: string]: string;
+}
+
+export interface Maps {
+    googleMaps: string;
+    openStreetMaps: string;
+}
+```
