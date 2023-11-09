@@ -7,6 +7,7 @@ Create an Angular application that uses the [REST Countries API](https://restcou
 <p align="center">
   <img src="./screenshot.png" />
 </p>
+
 ```typescript
 export type APIResponse = Country[];
 
